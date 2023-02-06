@@ -34,7 +34,7 @@ global_variables() {
     global_email="levizera@duck.com"
 
     # CC by-nc-nd is a good starting point, you can change this to "&copy;" for Copyright
-    global_license=""
+    global_license="Me pague um refri. Endereço Bitcoin: bc1q2acu9ymvwmd6g8738nc8r0vcts5u2untnq29kq"
 
     # If you have a Google Analytics ID (UA-XXXXX) and wish to use the standard
     # embedding code, put it on global_analytics
@@ -968,7 +968,7 @@ create_includes() {
         protected_mail=${global_email//@/&#64;}
         protected_mail=${protected_mail//./&#46;}
         echo "<div id=\"footer\">$global_license <a href=\"$global_author_url\">$global_author</a> &mdash; <a href=\"mailto:$protected_mail\">$protected_mail</a><br/>"
-        echo 'Generated with <a href="https://github.com/cfenollosa/bashblog">bashblog</a>, a single bash script to easily create blogs like this one</div>'
+        echo ''
         } >> ".footer.html"
     fi
 }
