@@ -34,7 +34,7 @@ global_variables() {
     global_email="levizera@duck.com"
 
     # CC by-nc-nd is a good starting point, you can change this to "&copy;" for Copyright
-    global_license="Me pague um refri. Endereço Bitcoin: bc1q2acu9ymvwmd6g8738nc8r0vcts5u2untnq29kq"
+    global_license=""
 
     # If you have a Google Analytics ID (UA-XXXXX) and wish to use the standard
     # embedding code, put it on global_analytics
@@ -88,8 +88,6 @@ global_variables() {
     save_markdown="yes"
     # prefix for tags/categories files
     # please make sure that no other html file starts with this prefix
-    prefix_tags="tag_"
-    # personalized header and footer (only if you know what you're doing)
     # DO NOT name them .header.html, .footer.html or they will be overwritten
     # leave blank to generate them, recommended
     header_file=""
@@ -107,8 +105,6 @@ global_variables() {
     css_include=()
     # HTML files to exclude from index, f.ex. post_exclude=('imprint.html 'aboutme.html')
     html_exclude=()
-
-    # Localization and i18n
     # "Comments?" (used in twitter link after every post)
     template_comments="Comentários"
     # "Read more..." (link under cut article on index page)
@@ -968,7 +964,7 @@ create_includes() {
         protected_mail=${global_email//@/&#64;}
         protected_mail=${protected_mail//./&#46;}
         echo "<div id=\"footer\">$global_license <a href=\"$global_author_url\">$global_author</a> &mdash; <a href=\"mailto:$protected_mail\">$protected_mail</a><br/>"
-        echo ''
+        echo 'Me compre um refri. Carteira Bitcoin: bc1q2acu9ymvwmd6g8738nc8r0vcts5u2untnq29kq'
         } >> ".footer.html"
     fi
 }
