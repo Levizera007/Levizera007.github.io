@@ -1,0 +1,22 @@
+#title{font-size: x-large;}
+        a.ablack{color:black !important;}
+        li{margin-bottom:8px;}
+        ul,ol{margin-left:24px;margin-right:24px;}
+        #all_posts{margin-top:24px;text-align:center;}
+        .subtitle{font-size:small;margin:12px 0px;}
+        .content p{margin-left:14px;margin-right:14px;}
+        h1{margin-bottom:12px !important;}
+        #description{font-size:large;margin-bottom:12px;}
+        h3{margin-top:42px;margin-bottom:8px;}
+        h4{margin-left:24px;margin-right:24px;}
+        img{max-width:100%;}
+        #twitter{line-height:20px;vertical-align:top;text-align:right;font-style:italic;color:#333;margin-top:24px;font-size:14px;}
+        .navigation-menu{overflow:hidden;position:relative;border-bottom:1px solid #e7e7e7}.main-navigation{display:none;padding-left:0}
+        .main-navigation li{list-style-type:none;margin:15px auto;text-align:center}
+        .main-navigation a{padding:5px 7px;color:#947aff;margin:0 2px 0 2px;text-decoration:none;display:inline-block}
+        .main-navigation a:hover{color:#000;transition:.3s ease}.hamburger-icon{margin:5px 30px 5px 5px;cursor:pointer;font-size:25px;color:#947aff}
+        #menu-toggle{display:none}#menu-toggle:checked+.main-navigation{display:block}
+        @media screen and (min-width:505px){.navigation-menu{height:70px;display:flex;align-items:center;border-bottom:1px solid #e7e7e7}
+        .main-navigation{display:flex;flex-direction:row;justify-content:flex-end;margin-left:30px}.main-navigation a{padding:15px 17px}
+        .hamburger-icon{display:none}#menu-toggle:checked+.main-navigation{display:flex}
+        .content p{margin-left:24px;margin-right:24px;}}
